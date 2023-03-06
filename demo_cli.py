@@ -118,7 +118,10 @@ if __name__ == '__main__':
 
     print("Interactive generation loop")
     num_generated = 0
-    while True:
+    #while True:
+    cishu=1
+    while cishu:
+        cishu-=1
         try:
             # Get the reference audio filepath
             message = "Reference voice: enter an audio filepath of a voice to be cloned (mp3, " \
